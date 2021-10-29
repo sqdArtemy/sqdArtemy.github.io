@@ -1,0 +1,34 @@
+head {
+    color:rgb(16, 24, 41);
+}
+hr {
+    border-color: rgb(16, 24, 41);    
+}
+body {
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    margin: 0 auto;
+    background-image: linear-gradient(to bottom right, rgb(73, 100, 134), rgba(164, 186, 207, 0.89));
+    }
+h1, h2{
+        font-style: normal;
+        color: rgb(19, 32, 61);
+    }
+h1{
+    text-align: center;
+}
+
+p {
+    text-align: center;
+    border-bottom: solid, 1px, rgb(16, 24, 41);
+}
+
+h1::before,
+h1::after {
+    display: inline-block;
+    content: "";
+    border-top: .3rem solid black;
+    width: 4rem;
+    margin: 0 1rem;
+    transform: translateY(-1rem);
+}
